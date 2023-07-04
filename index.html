@@ -1,32 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My Website</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
-</head>
 <body>
-	<header>
-		<h1>Welcome to my website!</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
-	<main>
-		<form method="post" action="/login">
-			<label for="username">Username:</label>
-			<input type="text" id="username" name="username" required>
-			<label for="password">Password:</label>
-			<input type="password" id="password" name="password" required>
-			<button type="submit">Login</button>
-		</form>
-	</main>
-	<footer>
-		<p>&copy; 2023 My Company</p>
-	</footer>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
 </body>
-</html>
+</html> 
